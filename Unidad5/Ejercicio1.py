@@ -3,6 +3,10 @@
 Created on Sat Jul  9 18:30:49 2022
 
 @author: LENOVO
+
+Escribe una función que calcule el área de un triángulo, recibiendo la 
+altura y la base como parámetros y otra función que calcule el 
+área de un círculo recibiendo el radio del mismo.
 """
 from math import pi
 
