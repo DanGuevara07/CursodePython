@@ -3,6 +3,9 @@
 Created on Sun Jul 10 14:57:40 2022
 
 @author: LENOVO
+
+Escribe una función que pueda
+decirte si un número (número entero) es primo o no.
 """
 
 def numeroprimo(numero):
