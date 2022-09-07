@@ -1,0 +1,17 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>Movies and Directors Home</h1>
+
+  <p>Welcome to <em>Movies and Directors</em>, a very basic Django website developed as a tutorial example on the Mozilla Developer Network.</p>
+
+<h2>Dynamic content</h2>
+
+  <p>The Movies and Directors has the following record counts:</p>
+  <ul>
+    <li><strong>Movies:</strong> {{ num_movies }}</li>
+    <li><strong>Directors:</strong> {{ num_directors }}</li>
+    <li><strong>Hecho por: Daniel Guevara para OpenBootCamp</strong></li>
+  </ul>
+
+{% endblock %}
